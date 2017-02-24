@@ -1,0 +1,106 @@
+body    {
+}
+a   {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+h2 {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.wrap    {
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-navigation {
+    margin: 0 auto;
+    margin-top: -50px;
+    
+    width: 1200px;
+    min-height: 300px;
+}
+.navi   {
+    margin: 0 auto;
+    width: 1200px;
+    
+    list-style: none;
+}
+.navi ul    {
+    margin-top: 90px;
+    
+    text-align: center;
+    list-style: none;
+}
+.navi ul li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navi ul li:last-child {
+    float: right;
+    margin-right: 20px;
+}
+.navi ul li a {
+    
+}
+.navi .logo  {
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+.navi .trash    {
+    float: right;
+    padding-right: 10px;
+}
+.col {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+.col_3 {
+    width: 33.3333333%;
+}
+.grid {
+    font-size: 0;
+}
+
+.description {
+    min-height: 300px;
+}
+
+.col_6 {
+    width: 60%;
+}
+
+.col_4 {
+    width: 40%;
+}
+
+.presentation {
+    min-height: 200px;
+}
+
+.col_2 {
+    width: 25%;
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.container {
+    min-height: 200px;
+    margin-bottom: 50px;
+}
