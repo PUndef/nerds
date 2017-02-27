@@ -1,6 +1,7 @@
 body    {
-    width: 1440px;
     margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
 }
 a   {
     font-size: 14px;
@@ -19,23 +20,29 @@ h2 {
     color: black;
 }
 .wrap    {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
+
+
 .main-navigation {
     margin: 0 auto;
     padding-top: 1px;
     margin-top: -80px;
     margin-bottom: 77px;
     
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     min-height: 300px;
     
     background: #eeeeee;
 }
 .navi   {
     margin: 0 auto;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin-bottom: 40px;
     
     list-style: none;
@@ -68,6 +75,7 @@ h2 {
     left: 18px;
     display: inline-block;
     vertical-align: middle;
+    padding-right: 20px;
 }
 .navi .trash    {
     float: right;
@@ -88,7 +96,6 @@ h2 {
 .description {
     min-height: 300px;
     padding-bottom: 80px;
-    margin-bottom: 40px;
     border-bottom: 1px solid #eeeeee;
 }
 .col_5    {
@@ -130,14 +137,13 @@ h2 {
 }
 
 .adress-item {
+    position: relative;
+    top: 30px;
+    left: 60px;
     width: 200px;
     background: white;
-}
-
-.map-marker {
-    position: absolute;
-    bottom: -400px;
-    left: 900px;
+    padding: 15 30;
+    padding-bottom: 25px;
 }
 
 .navi-item {
@@ -172,6 +178,8 @@ h2 {
     border-radius: 2px;
 }
 .description .col_3 img{
+    width: 100%;
+    max-width: 300px;
     margin-left: 18px;
     margin-bottom: 10px;
 }
@@ -237,4 +245,22 @@ h2 {
 }
 .presentation .col_3{
     
+}
+
+.partners {
+}
+
+.map-maker {
+    position: relative;
+    top: -350px;
+    left: 700px;
+}
+
+.map {
+    height: 420px;
+    width: 100%;
+    max-width: 1440px;
+}
+
+footer {
 }
