@@ -326,6 +326,7 @@ h2 {
     width: 100%;
     max-width: 300px;
     margin-bottom: 20px;
+    margin-right: 20px;
 }
 .left-bar h2{
     padding-top: 10px;
@@ -341,17 +342,55 @@ h2 {
     margin-right: 50px;
     padding: 10px;
 }
-.left-bar label input[type="radio"]{
-    margin-right: 20px;
+
+input[type="radio"]{
+    display: none;
 }
-.left-bar label input[type="checkbox"]{
-    margin-right: 20px;
+input[type="radio"] + span{
+    width: 27px;
+    height: 23px;
+    background-image: url("/img/radio-off.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input[type="radio"] + span:hover{
+    background-image: url("/img/radio-off-hov.png");
+}
+input[type="radio"]:checked + span{
+    background-image: url("/img/radio-on.png");
+}
+input[type="radio"]:checked + span:hover{
+    background-image: url("/img/radio-on-hov.png");
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+input[type="checkbox"] + span{
+    width: 27px;
+    height: 23px;
+    background-image: url("/img/checkbox-off.png");
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input[type="checkbox"]:checked + span{
+    background-image: url("/img/checkbox-on.png");
 }
 
 .right-bar {
     max-width: 860px;
     width: 100%;
     float: right;
+    margin-right: -47px;
+    padding-right: 0;
 }
 .right-bar .active{
     color: black;
@@ -359,7 +398,7 @@ h2 {
 .right-bar ul{
     margin-top: 5px;
     list-style: none;
-    padding-left: 77px;
+    padding-left: 0px;
 }
 .right-bar ul li{
     display: inline-block;
@@ -659,4 +698,8 @@ footer {
     height: 576px;
 
     background-image: url("/img/img-barbershop.jpg");
+}
+
+.item-head:hover {
+    background-image: url("/img/browser-hov.png");
 }
